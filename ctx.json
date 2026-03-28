@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ctx-hq/ctx/releases/download/v0.1.0/ctx-windows-amd64.zip",
+            "bin": [
+                "ctx.exe"
+            ],
+            "hash": "8bc691ec90020459180c3a38760e4551027ebb7f1d11d7c4a9569840d3c42e2c"
+        },
+        "arm64": {
+            "url": "https://github.com/ctx-hq/ctx/releases/download/v0.1.0/ctx-windows-arm64.zip",
+            "bin": [
+                "ctx.exe"
+            ],
+            "hash": "325759b64d14dfc35cd72ef40885831f6d1a50be02a744240b92699a2ecb24ba"
+        }
+    },
+    "homepage": "https://getctx.org",
+    "license": "MIT",
+    "description": "The universal context package manager for LLM agents"
+}
