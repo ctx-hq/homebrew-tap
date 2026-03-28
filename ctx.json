@@ -1,19 +1,19 @@
 {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ctx-hq/ctx/releases/download/v0.4.0/ctx-windows-amd64.zip",
+            "url": "https://github.com/ctx-hq/ctx/releases/download/v0.4.1/ctx-windows-amd64.zip",
             "bin": [
                 "ctx.exe"
             ],
-            "hash": "53d11658f378fa09f3861e188642a432fe3b0aff22ad1f42ca6de0c58a75d9d0"
+            "hash": "8716bc3e6de8972b1a35e33b90a3baf80c2a7e7501cabe1f1710c39870c81c85"
         },
         "arm64": {
-            "url": "https://github.com/ctx-hq/ctx/releases/download/v0.4.0/ctx-windows-arm64.zip",
+            "url": "https://github.com/ctx-hq/ctx/releases/download/v0.4.1/ctx-windows-arm64.zip",
             "bin": [
                 "ctx.exe"
             ],
-            "hash": "204e1e4007a4263e8109bace5ba9b59515edc9a60ec99ce2bdf686598d22f4ed"
+            "hash": "95255c661079077f7fed93c019157306dc47eeb502cb3d8294d23f9b6dc85c20"
         }
     },
     "homepage": "https://getctx.org",
