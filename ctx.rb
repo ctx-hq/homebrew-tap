@@ -5,13 +5,13 @@
 class Ctx < Formula
   desc "The universal context package manager for LLM agents"
   homepage "https://getctx.org"
-  version "0.23.0"
+  version "0.23.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ctx-hq/ctx/releases/download/v0.23.0/ctx-darwin-amd64.tar.gz"
-      sha256 "d5cdb6ae647ea467868bba4f09963e7a7a5f2b6d153392707f4e7210d39e299b"
+      url "https://github.com/ctx-hq/ctx/releases/download/v0.23.1/ctx-darwin-amd64.tar.gz"
+      sha256 "582f3e7e50886f1c321061e9158ffba3c9b237ce19e402738c4e78f2afa7c6f8"
 
       define_method(:install) do
         bin.install "ctx"
@@ -21,8 +21,8 @@ class Ctx < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ctx-hq/ctx/releases/download/v0.23.0/ctx-darwin-arm64.tar.gz"
-      sha256 "ed4a171b0721fe17748d9dc7884da5b591908aaf8828585549a1d5ad38a1fc53"
+      url "https://github.com/ctx-hq/ctx/releases/download/v0.23.1/ctx-darwin-arm64.tar.gz"
+      sha256 "d3c01d8ea3699c4a7140b8160ca936ad6bde5331be989fbe24f813a7d969da98"
 
       define_method(:install) do
         bin.install "ctx"
@@ -35,8 +35,8 @@ class Ctx < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ctx-hq/ctx/releases/download/v0.23.0/ctx-linux-amd64.tar.gz"
-      sha256 "a4b31fa89b8348a129b36f9515c08c994069d1bd499634e3813b9ed2d89cdf24"
+      url "https://github.com/ctx-hq/ctx/releases/download/v0.23.1/ctx-linux-amd64.tar.gz"
+      sha256 "439a7aa0ece7fa80d2222978a1032de085066387cdff4b50d7a0033ed7dd1624"
       define_method(:install) do
         bin.install "ctx"
         bash_completion.install "completions/ctx.bash" => "ctx"
@@ -45,8 +45,8 @@ class Ctx < Formula
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ctx-hq/ctx/releases/download/v0.23.0/ctx-linux-arm64.tar.gz"
-      sha256 "98afce071f8a02db3ff3b46563a4e2a2f24d4de75af16c83022da50829ef1b9d"
+      url "https://github.com/ctx-hq/ctx/releases/download/v0.23.1/ctx-linux-arm64.tar.gz"
+      sha256 "bf6b8de1774473fa2e1666c620376ab00a276defa50cc7f62b8690a26a2b12ac"
       define_method(:install) do
         bin.install "ctx"
         bash_completion.install "completions/ctx.bash" => "ctx"
